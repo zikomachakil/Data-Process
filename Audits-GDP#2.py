@@ -2,9 +2,10 @@ import hashlib
 import os
 import pandas as pd
 
-INPUT_FILE   = r"C:\Users\hp\Downloads\Data_11.csv"
-OUTPUT_STEP1 = r"C:\Users\hp\Downloads\Step1_minimization.csv"
-OUTPUT_STEP2 = r"C:\Users\hp\Downloads\Step2_pending_access.csv"
+## FILE DIRECTION
+INPUT_FILE   = r"C:----------------"
+OUTPUT_STEP1 = r"C:----------------"
+OUTPUT_STEP2 = r"C:----------------"
 
 # header=None -> the file has no header row; we name the 9 columns ourselves
 df = pd.read_csv(INPUT_FILE, sep=";", header=None, dtype=str, encoding="utf-8-sig")
